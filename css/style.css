@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+/*=======Header======*/
+
 header {
   background: white;
   padding: 10px;
@@ -62,6 +64,7 @@ header nav a {
   text-decoration: none;
 }
 
+/*=======Hero Image======*/
 
 .hero {
   width: 100%;
@@ -122,15 +125,42 @@ header nav a {
   text-decoration: none;
 }
 
+/*=======Text Format======*/
+
 h1, h2, h3, h4, p {
   font-family:'Muli', sans-serif;
   padding: 10px;
   text-align: center;
 }
 
+/*=======First Section======*/
+
 .container {
   margin: 30px auto;
   max-width: 1200px;
+}
+
+.different {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.owner {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+.service {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+.selective {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
 }
 
 hr {
@@ -144,19 +174,7 @@ hr {
   color: #f2ae2e;
 }
 
-
-.container2 {
-  background-color: #d1d1d1;
-  margin: 40px auto;
-  padding: 20px;
-  text-align: center;
-}
-
-.container3 {
-  margin: 40px auto;
-  padding: 20px;
-  text-align: center;
-}
+/*=======Second Section======*/
 
 .story {
   padding-bottom: 20px;
@@ -167,14 +185,9 @@ hr {
   padding-bottom: 50px;
 }
 
-.different {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-
 .products {
-  padding-top: 50px;
   padding-bottom: 40px;
+  padding-top: 50px;
 }
 
 .button-wrapper {
@@ -203,23 +216,20 @@ hr {
   background-color: #777;
 }
 
-.owner {
-  display: inline-block;
+.container2 {
+  background-color: #d1d1d1;
+  margin: 40px auto;
+  padding: 20px;
   text-align: center;
-  width: 33%;
 }
 
-.service {
-  display: inline-block;
+.container3 {
+  margin: 40px auto;
+  padding: 20px;
   text-align: center;
-  width: 33%;
 }
 
-.selective {
-  display: inline-block;
-  text-align: center;
-  width: 33%;
-}
+/*=======Third/Fourth Section======*/
 
 .marvin {
   display: inline-block;
@@ -241,6 +251,8 @@ hr {
   text-align: center;
   width: 25%;
 }
+
+/*=======Footer Section======*/
 
 footer {
   background-color: #d1d1d1;
