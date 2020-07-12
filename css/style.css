@@ -36,6 +36,33 @@ header nav a {
   padding-right: 60px;
 }
 
+.button-wrapper2 {
+  display: inline-block;
+  margin: .75em;
+  text-align: center;
+  color: white;
+  font-family: 'Muli', sans-serif;
+  float: right;
+  padding-right: 80px;
+}
+
+.button2 {
+  border: none;
+  border-radius: 3em;
+  display: inline-block;
+  font-size: 1em;
+  padding: .75em 1em;
+  width: auto;
+}
+
+.cta-button2 {
+  background-color: #f2ae2e;
+  color: #ffffff;
+  font-family:'Muli', sans-serif;
+  text-decoration: none;
+}
+
+
 .hero {
   width: 100%;
   filter: brightness(60%);
@@ -57,6 +84,16 @@ header nav a {
   font-size: 80px;
 }
 
+.tagline {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: 30px;
+}
+
 .button-wrapper1 {
   display: block;
   margin: 1em;
@@ -67,14 +104,13 @@ header nav a {
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Muli', sans-serif;
-  font-size: 20px;
 }
 
 .button1 {
   border: none;
   border-radius: 3em;
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.25em;
   padding: .75em 1em;
   width: auto;
 }
