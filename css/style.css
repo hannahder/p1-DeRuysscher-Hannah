@@ -23,3 +23,35 @@ header a {
 .hero {
   width: 100%;
 }
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+}
+.owner {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin: 1em;
+  text-align: center;
+}
+
+.service {
+  width: 30%;
+  display: inline-block;
+  float: center;
+  margin: 1em;
+  text-align: center;
+}
+
+.selective {
+  width: 30%;
+  display: inline-block;
+  float: right;
+  margin: 1em;
+  text-align: center;
+}
