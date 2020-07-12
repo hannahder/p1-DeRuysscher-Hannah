@@ -244,7 +244,7 @@ hr {
 
 footer {
   background-color: #d1d1d1;
-  padding: 30px;
+  padding-top: 60px;
 }
 
 #footer-text {
@@ -270,4 +270,44 @@ footer nav a {
   text-transform: uppercase;
   font-family: 'Muli', sans-serif;
   font-size: 22px;
+}
+
+.social {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #f2ae2e;
+  color: black;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #f2ae2e;
+  color: black;
+}
+
+.fa-instagram {
+  background: #f2ae2e;
+  color: black;
+}
+
+.fa-linkedin {
+  background: #f2ae2e;
+  color: black;
 }
