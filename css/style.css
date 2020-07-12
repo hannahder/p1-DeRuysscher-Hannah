@@ -65,7 +65,7 @@ header nav a {
 
 .hero {
   width: 100%;
-  filter: brightness(60%);
+  filter: brightness(45%);
 }
 
 .hero-image {
@@ -99,7 +99,7 @@ header nav a {
   margin: 1em;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -240,4 +240,34 @@ hr {
   margin: 1em;
   text-align: center;
   width: 25%;
+}
+
+footer {
+  background-color: #d1d1d1;
+  padding: 30px;
+}
+
+#footer-text {
+  text-align: left;
+  padding-right: 100px;
+  padding: 50px 14em;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 200px;
+}
+
+footer nav ul li {
+  display: inline;
+  padding: 30px;
+}
+
+footer nav a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Muli', sans-serif;
+  font-size: 22px;
 }
