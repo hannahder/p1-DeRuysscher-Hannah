@@ -6,18 +6,26 @@
 
 header {
   background: white;
-  padding: 20px;
+  padding: 10px;
+  box-shadow: 10px 10px;
 }
 
-header nav ul li {
+.logo-container, header nav {
   display: inline-block;
 }
 
-header a {
+header nav ul li {
+  display: inline;
+  padding-left: 50px;
+}
+
+header nav a {
   color: black;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: 'Muli', sans-serif;
+  font-size: 24px;
 }
 
 .hero {
@@ -26,6 +34,7 @@ header a {
 
 h1, h2, h3, h4, p {
   font-family:'Muli', sans-serif;
+  padding: 10px;
   text-align: center;
 }
 
@@ -35,9 +44,35 @@ h1, h2, h3, h4, p {
 }
 
 .container2 {
+  background-color: #d1d1d1;
   margin: 40px auto;
-  max-width: 1500px;
+  padding: 20px;
   text-align: center;
+}
+
+.container3 {
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.story {
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+.storytext {
+  padding-bottom: 50px;
+}
+
+.different {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.products {
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 .button-wrapper {
@@ -68,42 +103,39 @@ h1, h2, h3, h4, p {
 
 .owner {
   display: inline-block;
-  margin: 1em;
   text-align: center;
-  width: 30%;
+  width: 33%;
 }
 
 .service {
   display: inline-block;
-  margin: 1em;
   text-align: center;
-  width: 30%;
+  width: 33%;
 }
 
 .selective {
   display: inline-block;
-  margin: 1em;
   text-align: center;
-  width: 30%;
+  width: 33%;
 }
 
 .marvin {
   display: inline-block;
   margin: 1em;
   text-align: center;
-  width: 30%;
+  width: 25%;
 }
 
 .kolbe {
   display: inline-block;
   margin: 1em;
   text-align: center;
-  width: 30%;
+  width: 25%;
 }
 
 .brombal {
   display: inline-block;
   margin: 1em;
   text-align: center;
-  width: 30%;
+  width: 25%;
 }
