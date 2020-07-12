@@ -32,10 +32,15 @@ h1 {
   max-width: 1200px;
   margin: 30px auto;
 }
+
+.container2 {
+  text-align: center;
+  margin: 40px auto;
+}
+
 .owner {
   width: 30%;
   display: inline-block;
-  float: left;
   margin: 1em;
   text-align: center;
 }
@@ -43,7 +48,6 @@ h1 {
 .service {
   width: 30%;
   display: inline-block;
-  float: center;
   margin: 1em;
   text-align: center;
 }
@@ -51,7 +55,30 @@ h1 {
 .selective {
   width: 30%;
   display: inline-block;
-  float: right;
   margin: 1em;
   text-align: center;
+}
+
+.marvin {
+  width: 30%;
+  display: inline-block;
+  margin: 1em;
+  text-align: center;
+  width: 400px;
+}
+
+.kolbe {
+  width: 30%;
+  display: inline-block;
+  margin: 1em;
+  text-align: center;
+  width: 400px;
+}
+
+.brombal {
+  width: 30%;
+  display: inline-block;
+  margin: 1em;
+  text-align: center;
+  width: 400px;
 }
