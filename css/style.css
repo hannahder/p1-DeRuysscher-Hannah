@@ -1,7 +1,7 @@
 * {
+  border: 0;
   margin: 0;
   padding: 0;
-  border: 0;
 }
 
 header {
@@ -14,10 +14,10 @@ header nav ul li {
 }
 
 header a {
-  text-decoration: none;
   color: black;
-  text-transform: uppercase;
   font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -30,56 +30,80 @@ h1, h2, h3, h4, p {
 }
 
 .container {
-  max-width: 1200px;
   margin: 30px auto;
+  max-width: 1200px;
 }
 
 .container2 {
-  text-align: center;
   margin: 40px auto;
+  max-width: 1500px;
+  text-align: center;
+}
+
+.button-wrapper {
+  display: block;
+  margin: 1em;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  border-radius: 3em;
+  display: inline-block;
+  font-size: 1em;
+  padding: .75em 1em;
+  width: auto;
+}
+
+.cta-button {
+  background-color: #f2ae2e;
+  color: #ffffff;
+  font-family:'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #777;
 }
 
 .owner {
-  width: 30%;
   display: inline-block;
   margin: 1em;
   text-align: center;
+  width: 30%;
 }
 
 .service {
-  width: 30%;
   display: inline-block;
   margin: 1em;
   text-align: center;
+  width: 30%;
 }
 
 .selective {
-  width: 30%;
   display: inline-block;
   margin: 1em;
   text-align: center;
+  width: 30%;
 }
 
 .marvin {
-  width: 30%;
   display: inline-block;
   margin: 1em;
   text-align: center;
-  width: 400px;
+  width: 30%;
 }
 
 .kolbe {
-  width: 30%;
   display: inline-block;
   margin: 1em;
   text-align: center;
-  width: 400px;
+  width: 30%;
 }
 
 .brombal {
-  width: 30%;
   display: inline-block;
   margin: 1em;
   text-align: center;
-  width: 400px;
+  width: 30%;
 }
