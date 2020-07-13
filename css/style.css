@@ -214,40 +214,126 @@ hr {
 .container-products {
   background-color: white;
   margin: 20px auto;
-  max-width: 1300px;
+  max-width: 1600px;
 }
 
 .marvin-product {
   margin: 1em;
-  padding: 10em 0;
+  padding: 5em 0 13em 0;
 }
 
 .marvin-text {
   text-align: left;
-  padding-left: 600px;
+  padding-left: 900px;
   width: 400px;
 }
 
 .kolbe-product {
   margin: 1em;
-  padding: 10em 0;
+  padding: 13em 0;
 }
 
 .kolbe-text {
   text-align: right;
-  padding-left: 300px;
-  width: 400px;
+  padding-left: 200px;
+  width: 500px;
 }
 
 .brombal-product {
   margin: 1em;
-  padding: 10em 0;
+  padding: 13em 0;
 }
 
 .brombal-text {
   text-align: left;
-  padding-left: 600px;
-  width: 400px;
+  padding-left: 900px;
+  width: 500px;
+}
+
+.button-wrapper-marvin {
+  float: left;
+  margin: 1em;
+  text-align: center;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.button-marvin {
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+  padding: .75em 1em;
+  width: auto;
+}
+
+.cta-button-marvin {
+  background-color: #f2ae2e;
+  color: #ffffff;
+  font-family:'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.cta-button-marvin:hover {
+  background-color: #777;
+}
+
+.button-wrapper-kolbe {
+  float: left;
+  margin: 1em;
+  text-align: center;
+  padding-left: 575px;
+  padding-top: 20px;
+}
+
+.button-kolbe {
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+  padding: .75em 1em;
+  width: auto;
+}
+
+.cta-button-kolbe {
+  background-color: #f2ae2e;
+  color: #ffffff;
+  font-family:'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.cta-button-kolbe:hover {
+  background-color: #777;
+}
+
+.button-wrapper-brombal {
+  float: left;
+  margin: 1em;
+  text-align: center;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.button-brombal {
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+  padding: .75em 1em;
+  width: auto;
+}
+
+.cta-button-brombal {
+  background-color: #f2ae2e;
+  color: #ffffff;
+  font-family:'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.cta-button-brombal:hover {
+  background-color: #777;
+}
+
+.before-footer {
+  background-color: white;
+  padding: 100px;
 }
 
 /*=======Second Section======*/
