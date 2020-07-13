@@ -209,6 +209,47 @@ hr {
   width: 33%;
 }
 
+/*=======Products Page Section======*/
+
+.container-products {
+  background-color: white;
+  margin: 20px auto;
+  max-width: 1300px;
+}
+
+.marvin-product {
+  margin: 1em;
+  padding: 10em 0;
+}
+
+.marvin-text {
+  text-align: left;
+  padding-left: 600px;
+  width: 400px;
+}
+
+.kolbe-product {
+  margin: 1em;
+  padding: 10em 0;
+}
+
+.kolbe-text {
+  text-align: right;
+  padding-left: 300px;
+  width: 400px;
+}
+
+.brombal-product {
+  margin: 1em;
+  padding: 10em 0;
+}
+
+.brombal-text {
+  text-align: left;
+  padding-left: 600px;
+  width: 400px;
+}
+
 /*=======Second Section======*/
 
 .story {
