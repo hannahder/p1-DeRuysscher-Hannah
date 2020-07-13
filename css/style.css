@@ -344,21 +344,21 @@ hr {
 }
 
 .blog1 {
-  padding: 10px;
+  padding: 70px 10px 10px 10px;
   display: inline-block;
   text-align: center;
   width: 30%;
 }
 
 .blog2 {
-  padding: 10px;
+  padding: 70px 10px 10px 10px;
   display: inline-block;
   text-align: center;
   width: 30%;
 }
 
 .blog3 {
-  padding: 10px;
+  padding: 70px 10px 10px 10px;
   display: inline-block;
   text-align: center;
   width: 30%;
@@ -366,6 +366,7 @@ hr {
 
 #blog-tag {
   font-style: italic;
+
 }
 
 /*=======Home Second Section======*/
