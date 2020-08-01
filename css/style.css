@@ -9,6 +9,7 @@
 header {
   background: white;
   padding: 10px;
+  box-shadow: 1px 5px 25px 20px #888888;
 }
 
 .logo-container, header nav {
@@ -409,47 +410,96 @@ hr {
 
 .cta-button:hover {
   background-color: #777;
+  transition-duration: .2s;
 }
 
-.container2 {
-  background-color: #d1d1d1;
-  margin: 40px auto;
-  padding: 20px;
-  text-align: center;
-}
 
-.container3 {
-  margin: 40px auto;
-  padding: 20px;
-  text-align: center;
-}
 
 /*=======Home Third/Fourth Section======*/
 
-.marvin {
-  display: inline-block;
-  margin: 1em;
-  text-align: center;
-  width: 25%;
+.grey-background {
+  height: 800px;
+  background-color: #d1d1d1;
+  max-width: 100%;
 }
 
-.kolbe {
-  display: inline-block;
-  margin: 1em;
-  text-align: center;
-  width: 25%;
+.products-text {
+  padding: 60px;
 }
 
-.brombal {
-  display: inline-block;
-  margin: 1em;
+.main-container {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.container-services {
+  position: relative;
+  float: left;
+  margin: 10px;
+}
+
+.image {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  width: 500px;
+  transition: .5s ease;
+  background-color: #f2ae2e;
+}
+
+.container-services:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+}
+
+.text-blog {
+  color: black;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+}
+
+.recent-news-container {
+  bottom: 50px;
+  margin: 10px auto;
+  max-width: 1474px;
   text-align: center;
-  width: 25%;
+  height: 700px;
+}
+
+.white-background {
+  height: 800px;
+  max-width: 100%;
 }
 
 /*=======Footer Section======*/
 
 footer {
+  position: relative;
   background-color: #d1d1d1;
   padding-top: 60px;
 }
