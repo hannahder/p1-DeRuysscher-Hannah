@@ -6,10 +6,11 @@
 
 /*=======Header======*/
 
+
 header {
   background: white;
   padding: 10px;
-  box-shadow: 1px 5px 25px 20px #888888;
+  box-shadow: 1px 5px 25px 10px #888888;
 }
 
 .logo-container, header nav {
@@ -23,17 +24,24 @@ header {
 
 header nav ul li {
   display: inline;
-  padding: 30px;
 }
 
 header nav a {
   color: black;
-  font-weight: bold;
-  text-decoration: none;
   text-transform: uppercase;
+  font-weight: bold;
   font-family: 'Muli', sans-serif;
   font-size: 22px;
+  padding-right: 50px;
+  padding-left: 10px;
+  text-decoration: none;
 }
+
+header nav a:hover {
+  color: #888888;
+  transition-duration: .3s;
+}
+
 
 .logo {
   padding-right: 60px;
@@ -65,6 +73,11 @@ header nav a {
   text-decoration: none;
 }
 
+.cta-button2:hover {
+  background-color: #777;
+  transition-duration: .2s;
+}
+
 /*=======Hero Image======*/
 
 .hero {
@@ -76,6 +89,10 @@ header nav a {
   position: relative;
   text-align: center;
   color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .centered {
@@ -126,6 +143,10 @@ header nav a {
   text-decoration: none;
 }
 
+.cta-button1:hover {
+  background-color: #777;
+  transition-duration: .3s;
+}
 /*=======Text Format======*/
 
 h1, h2, h3, h4, p {
@@ -134,11 +155,16 @@ h1, h2, h3, h4, p {
   text-align: center;
 }
 
-/*=======Home First Section======*/
+p::selection {
+  background: black;
+  color: white;
+}
 
-.container {
-  margin: 30px auto;
-  max-width: 1200px;
+/*=======What Makes Us Different Section======*/
+
+.container-different {
+  margin: 0 auto;
+  max-width: 1050px;
 }
 
 .different {
@@ -146,27 +172,32 @@ h1, h2, h3, h4, p {
   padding-bottom: 40px;
 }
 
-.owner {
-  display: inline-block;
-  text-align: center;
-  width: 33%;
-}
-
-.service {
-  display: inline-block;
-  text-align: center;
-  width: 33%;
-}
-
+.owner,
+.service,
 .selective {
-  display: inline-block;
   text-align: center;
-  width: 33%;
+  float: left;
+  max-width: 350px;
 }
+
+.service-icon,
+.owner-icon,
+.selective-icon {
+  transition: .3s;
+}
+
+.service-icon:hover,
+.owner-icon:hover,
+.selective-icon:hover {
+  transform: translateY(-4px);
+  transition: .3s;
+}
+
+/*=======Our Story Section======*/
 
 hr {
   display: block;
-  margin-top: 5em;
+  margin-top: 350px;
   margin-bottom: 0.5em;
   margin-left: 40%;
   margin-right: 40%;
@@ -175,202 +206,12 @@ hr {
   color: #f2ae2e;
 }
 
-/*=======Team Section======*/
-
-.team1 {
-  display: inline-block;
-  text-align: center;
-  width: 50%;
-}
-
-.team2 {
-  display: inline-block;
-  text-align: center;
-  width: 49%;
-}
-
-.team3 {
-  padding-top:30px;
-  display: inline-block;
-  text-align: center;
-  width: 33%;
-}
-
-.team4 {
-  padding-top:30px;
-  display: inline-block;
-  text-align: center;
-  width: 33%;
-}
-
-.team5 {
-  padding-top:30px;
-  display: inline-block;
-  text-align: center;
-  width: 33%;
-}
-
-/*=======Products Page Section======*/
-
-.container-products {
-  background-color: white;
-  margin: 20px auto;
-  max-width: 1600px;
-}
-
-.marvin-product {
-  margin: 1em;
-  padding: 5em 0 13em 0;
-}
-
-.marvin-text {
-  text-align: left;
-  padding-left: 900px;
-  width: 600px;
-}
-
-.kolbe-product {
-  margin: 1em;
-  padding: 13em 0;
-}
-
-.kolbe-text {
-  text-align: right;
-  padding-left: 100px;
-  width: 600px;
-}
-
-.brombal-product {
-  margin: 1em;
-  padding: 13em 0;
-}
-
-.brombal-text {
-  text-align: left;
-  padding-left: 900px;
-  width: 600px;
-}
-
-.button-wrapper-marvin {
-  float: left;
-  margin: 1em;
-  text-align: center;
-  padding-left: 60px;
-  padding-top: 20px;
-}
-
-.button-marvin {
-  border: none;
-  border-radius: 3em;
-  font-size: 1em;
-  padding: .75em 1em;
-  width: auto;
-}
-
-.cta-button-marvin {
-  background-color: #f2ae2e;
-  color: #ffffff;
-  font-family:'Muli', sans-serif;
-  text-decoration: none;
-}
-
-.cta-button-marvin:hover {
-  background-color: #777;
-}
-
-.button-wrapper-kolbe {
-  float: left;
-  margin: 1em;
-  text-align: center;
-  padding-left: 575px;
-  padding-top: 20px;
-}
-
-.button-kolbe {
-  border: none;
-  border-radius: 3em;
-  font-size: 1em;
-  padding: .75em 1em;
-  width: auto;
-}
-
-.cta-button-kolbe {
-  background-color: #f2ae2e;
-  color: #ffffff;
-  font-family:'Muli', sans-serif;
-  text-decoration: none;
-}
-
-.cta-button-kolbe:hover {
-  background-color: #777;
-}
-
-.button-wrapper-brombal {
-  float: left;
-  margin: 1em;
-  text-align: center;
-  padding-left: 60px;
-  padding-top: 20px;
-}
-
-.button-brombal {
-  border: none;
-  border-radius: 3em;
-  font-size: 1em;
-  padding: .75em 1em;
-  width: auto;
-}
-
-.cta-button-brombal {
-  background-color: #f2ae2e;
-  color: #ffffff;
-  font-family:'Muli', sans-serif;
-  text-decoration: none;
-}
-
-.cta-button-brombal:hover {
-  background-color: #777;
-}
-
-.before-footer {
-  background-color: white;
-  padding: 100px;
-}
-
-/*=======Blog Page======*/
-
-.container-blog {
-  margin: 30px auto;
+.container {
+  margin: 40px auto;
   max-width: 1200px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
-
-.blog1 {
-  padding: 70px 10px 10px 10px;
-  display: inline-block;
-  text-align: center;
-  width: 30%;
-}
-
-.blog2 {
-  padding: 70px 10px 10px 10px;
-  display: inline-block;
-  text-align: center;
-  width: 30%;
-}
-
-.blog3 {
-  padding: 70px 10px 10px 10px;
-  display: inline-block;
-  text-align: center;
-  width: 30%;
-}
-
-#blog-tag {
-  font-style: italic;
-
-}
-
-/*=======Home Second Section======*/
 
 .story {
   padding-bottom: 20px;
@@ -381,41 +222,7 @@ hr {
   padding-bottom: 50px;
 }
 
-.products {
-  padding-bottom: 40px;
-  padding-top: 50px;
-}
-
-.button-wrapper {
-  display: block;
-  margin: 1em;
-  text-align: center;
-}
-
-.button {
-  border: none;
-  border-radius: 3em;
-  display: inline-block;
-  font-size: 1em;
-  padding: .75em 1em;
-  width: auto;
-}
-
-.cta-button {
-  background-color: #f2ae2e;
-  color: #ffffff;
-  font-family:'Muli', sans-serif;
-  text-decoration: none;
-}
-
-.cta-button:hover {
-  background-color: #777;
-  transition-duration: .2s;
-}
-
-
-
-/*=======Home Third/Fourth Section======*/
+/*=======Products and Blog Section======*/
 
 .grey-background {
   height: 800px;
@@ -429,7 +236,7 @@ hr {
 
 .main-container {
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 1560px;
 }
 
 .container-services {
@@ -496,6 +303,246 @@ hr {
   max-width: 100%;
 }
 
+/*=======About Page======*/
+
+.team1 {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+
+.team2 {
+  display: inline-block;
+  text-align: center;
+  width: 49%;
+}
+
+.team3 {
+  padding-top:30px;
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+.team4 {
+  padding-top:30px;
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+.team5 {
+  padding-top:30px;
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+/*=======Products Page======*/
+
+.container-products {
+  background-color: white;
+  margin: 20px auto;
+  max-width: 1600px;
+  height: 2000px;
+}
+
+.marvin-product-image {
+  position: relative;
+  top: 200px;
+  overflow: hidden;
+  width: 800px;
+  height: 500px;
+}
+
+.marvin-image1,
+.kolbe-image1,
+.brombal-image1 {
+  transition-duration: .7s;
+}
+
+.marvin-product-image:hover .marvin-image1,
+.kolbe-product-image:hover .kolbe-image1,
+.brombal-product-image:hover .brombal-image1 {
+  transform: scale(1.1);
+  width: 800px;
+  height: 500px;
+  transition-duration: .7s;
+}
+
+.marvin-product-text {
+  width: 500px;
+  position: relative;
+  text-align: left;
+  bottom: 150px;
+  left: 900px;
+}
+
+.kolbe-product-image {
+  position: relative;
+  top: 50px;
+  left: 800px;
+  overflow: hidden;
+  width: 800px;
+  height: 500px;
+}
+
+.kolbe-product-text {
+  width: 500px;
+  position: relative;
+  text-align: left;
+  bottom: 300px;
+  left: 200px;
+}
+
+.brombal-product-image {
+  position: relative;
+  bottom: 125px;
+  right: 10px;
+  overflow: hidden;
+  width: 800px;
+  height: 500px;
+}
+
+.brombal-product-text {
+  width: 500px;
+  position: relative;
+  bottom: 500px;
+  left: 900px;
+}
+
+.button-wrapper-marvin {
+  position: relative;
+  left: 320px;
+  bottom: 150px;
+  margin: 1em;
+  text-align: center;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.button-marvin {
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+  padding: .75em 1em;
+  width: auto;
+}
+
+.cta-button-marvin {
+  background-color: #f2ae2e;
+  color: #ffffff;
+  font-family:'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.cta-button-marvin:hover {
+  background-color: #777;
+  transition-duration: .2s;
+}
+
+.button-wrapper-kolbe {
+  position: relative;
+  right: 630px;
+  bottom: 300px;
+  margin: 1em;
+  text-align: center;
+  padding-left: 575px;
+  padding-top: 20px;
+}
+
+.button-kolbe {
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+  padding: .75em 1em;
+  width: auto;
+}
+
+.cta-button-kolbe {
+  background-color: #f2ae2e;
+  color: #ffffff;
+  font-family:'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.cta-button-kolbe:hover {
+  background-color: #777;
+  transition-duration: .2s;
+}
+
+.button-wrapper-brombal {
+  position: relative;
+  left: 320px;
+  bottom: 500px;
+  margin: 1em;
+  text-align: center;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.button-brombal {
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+  padding: .75em 1em;
+  width: auto;
+}
+
+.cta-button-brombal {
+  background-color: #f2ae2e;
+  color: #ffffff;
+  font-family:'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.cta-button-brombal:hover {
+  background-color: #777;
+  transition-duration: .2s;
+}
+
+/*=======Blog Page======*/
+
+.container-blog {
+  margin: 20px auto;
+  max-width: 1380px;
+  height: 1500px;
+}
+
+.blog1 {
+  padding: 70px 20px;
+  text-align: center;
+  float: left;
+}
+
+.blog2 {
+  padding: 70px 20px;
+  text-align: center;
+  float: left;
+}
+
+.blog3 {
+  padding: 70px 20px;
+  text-align: center;
+  float: left;
+}
+
+#blog-tag {
+  font-style: italic;
+}
+
+.blog-text {
+  width: 400px;
+}
+
+/*=======Video Page======*/
+
+video {
+  padding: 20px;
+}
+
+
+
 /*=======Footer Section======*/
 
 footer {
@@ -512,12 +559,12 @@ footer {
 
 footer nav {
   display: inline-block;
-  padding-left: 200px;
+  padding-left: 225px;
 }
 
 footer nav ul li {
   display: inline;
-  padding: 30px;
+  padding: 10px;
 }
 
 footer nav a {
@@ -538,7 +585,8 @@ footer nav a {
 .fa {
   padding: 10px;
   font-size: 30px;
-  width: 20px;
+  width: 30px;
+  height: 20px;
   text-align: center;
   text-decoration: none;
 }
