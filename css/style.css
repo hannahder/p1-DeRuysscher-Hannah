@@ -537,11 +537,10 @@ hr {
 
 /*=======Video Page======*/
 
-video {
-  padding: 20px;
+.container-video {
+  margin: 40px auto;
+  max-width: 1200px;
 }
-
-
 
 /*=======Footer Section======*/
 
