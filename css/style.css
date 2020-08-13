@@ -11,6 +11,7 @@ header {
   background: white;
   padding: 10px;
   box-shadow: 1px 5px 25px 10px #888888;
+  z-index: 3;
 }
 
 .logo-container, header nav {
@@ -537,9 +538,44 @@ hr {
 
 /*=======Video Page======*/
 
-.container-video {
+.container-video-text {
+  position: absolute;
+  top: 400px;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+
+.marvin-video-text {
+  color: white;
+  font-size: 108px;
+}
+
+
+.siw-video {
+  position: relative;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.bottom-section {
+  position: absolute;
+  background-color: white;
+  top: 1000px;
+  right: 0;
+  width: 100%;
+  height: 600px;
+  z-index: 4;
+}
+
+.paragraph-text {
+  max-width: 900px;
   margin: 40px auto;
-  max-width: 1200px;
+  padding-top: 125px;
 }
 
 /*=======Footer Section======*/
@@ -548,6 +584,7 @@ footer {
   position: relative;
   background-color: #d1d1d1;
   padding-top: 60px;
+  z-index: 5;
 }
 
 #footer-text {
@@ -579,7 +616,6 @@ footer nav a {
   padding-bottom: 10px;
   text-align: center;
 }
-
 
 .fa {
   padding: 10px;
