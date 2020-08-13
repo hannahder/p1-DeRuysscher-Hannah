@@ -536,6 +536,32 @@ hr {
   width: 400px;
 }
 
+.button-wrapper {
+  margin: 1em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.button {
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+  padding: .75em 1em;
+  width: auto;
+}
+
+.cta-button {
+  background-color: #f2ae2e;
+  color: #ffffff;
+  font-family:'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #777;
+  transition-duration: .2s;
+}
+
 /*=======Video Page======*/
 
 .container-video-text {
@@ -582,6 +608,7 @@ hr {
 
 footer {
   position: relative;
+  bottom: 0;
   background-color: #d1d1d1;
   padding-top: 60px;
   z-index: 5;
