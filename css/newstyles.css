@@ -492,10 +492,32 @@ form textarea {
 
 
 
+/*********START MAX WIDTH 720PX MEDIA QUERY**********/
+
+@media (max-width: 720px) {
 
 
+.contact-container {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0;
+  margin: 0;
+  background-color: #00000100;
+  margin-bottom: 210px;
+}
 
+.contact-container h1, .contact-container p {
+  color: white;
+  max-width: 400px;
+  margin: auto;
+}
 
+form input {
+  max-width: 100%;
+}
+}
+
+/*********END MAX WIDTH 720PX MEDIA QUERY**********/
 
 
 
@@ -512,9 +534,10 @@ form textarea {
 
 @media (max-width: 599px) {
 
-  nav.desktop-menu {
-  	display: none;
-  }
+
+.logo img {
+  width: 140px;
+}
 
 	h1 {
     font-size: 1.25rem;
@@ -528,7 +551,7 @@ form textarea {
     text-align: center;
   }
 
-  p {
+  .container-different p {
     width: 75%;
     text-align: center;
     margin: auto;
@@ -536,19 +559,11 @@ form textarea {
 
 /****HERO IMAGE SECTION****/
 
-  .logo {
-    width: 150px;
-    margin: 10px;
-    transition: .3s;
-  }
 
   header {
-    height: 65px;
+    height: 75px;
   }
 
-  .menu {
-    margin-top: 65px;
-  }
 
   .button-wrapper2, .button1, .cta-button1, .button-wrapper1 {
     display: none;
@@ -584,12 +599,6 @@ form textarea {
 
 /****OUR STORY SECTION****/
 
-  .container {
-    margin: auto 0;
-    text-align: center;
-    padding: 20px;
-  }
-
   .story {
     padding-top: 50px;
   }
@@ -597,130 +606,7 @@ form textarea {
   .storytext {
     padding-bottom: 50px;
   }
-
-/****PRODUCTS SECTION****/
-
-  .products-container {
-    height: 1400px;
-    clear: both;
-  }
-
-  .main-container {
-    max-width: 375px;
-    margin: auto;
-  }
-
-  .products-text {
-    padding-top: 60px;
-    padding-bottom: 10px;
-  }
-
-  .container-services {
-    position: relative;
-    padding-bottom: 30px;
-  }
-
-  .image {
-    max-width: 375px;
-  }
-
-  .overlay {
-    position: absolute;
-    opacity: 0;
-    width: 375px;
-    height: 25%;
-    bottom: 30px;
-    transition: .5s ease;
-    background-color: #f2ae2e;
-    text-align: center;
-  }
-
-  .container-services:hover .overlay {
-    opacity: 1;
-  }
-
-  .text {
-    color: black;
-    font-size: 24px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    font-family: 'Muli', sans-serif;
-    font-weight: 700;
-  }
-
-  .orange-background {
-    background-color: #f2ae2e;
-    clear: both;
-    height: 300px;
-  }
-
-  .quiz-container {
-    text-align: center;
-    padding-top: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .quiz-button-wrapper {
-    display: inline-block;
-    margin: .75em;
-    text-align: center;
-    color: white;
-    font-family: 'Muli', sans-serif;
-    position: relative;
-    top: 20px;
-    left: 0;
-  }
-
-  .quiz-button {
-    border: none;
-    border-radius: 3em;
-    display: inline-block;
-    font-size: .9em;
-    padding: .75em 1em;
-    width: auto;
-    }
-
-  .cta-quiz-button {
-    background-color: black;
-    color: #ffffff;
-    font-family:'Muli', sans-serif;
-    text-decoration: none;
-  }
-
-  .cta-quiz-button:hover {
-    background-color: #777;
-    transition-duration: .2s;
-  }
 }
-
-#about-container {
-  width: 100%;
-  margin: auto 0;
-  text-align: center;
-}
-
-#team1, #team2, #team3, #team4, #team5, #team6, #team7, #team8 {
-  width: 250px;
-  margin: auto;
-}
-
-.team {
-  width: 250px;
-}
-
-#our-team {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-
-#team8 {
-  padding-bottom: 150px;
-}
-
 /*********END MAX WIDTH 599PX MEDIA QUERY**********/
 
 
@@ -730,9 +616,9 @@ form textarea {
 
 @media (max-width: 400px) {
 
-    nav.desktop-menu {
-    	display: none;
-    }
+  header {
+    height: 75px;
+  }
 
   	h1 {
       font-size: 1.25rem;
@@ -746,7 +632,7 @@ form textarea {
       text-align: center;
     }
 
-    p {
+    .container-different p {
       max-width: 75%;
       text-align: center;
       margin: auto;
@@ -754,19 +640,6 @@ form textarea {
 
   /****HERO IMAGE SECTION****/
 
-    .logo {
-      width: 150px;
-      margin: 10px;
-      transition: .3s;
-    }
-
-    header {
-      height: 65px;
-    }
-
-    .menu {
-      margin-top: 65px;
-    }
 
     .button-wrapper2, .button1, .cta-button1, .button-wrapper1 {
       display: none;
@@ -802,12 +675,6 @@ form textarea {
 
   /****OUR STORY SECTION****/
 
-    .container {
-      margin: auto 0;
-      text-align: center;
-      padding: 20px;
-    }
-
     .story {
       padding-top: 50px;
     }
@@ -815,129 +682,7 @@ form textarea {
     .storytext {
       padding-bottom: 50px;
     }
-
-  /****PRODUCTS SECTION****/
-
-    .products-container {
-      height: 1000px;
-      max-width: 100%;
-      clear: both;
-    }
-
-    .main-container {
-      max-width: 250px;
-      margin: auto;
-    }
-
-    .products-text {
-      padding-top: 60px;
-      padding-bottom: 10px;
-    }
-
-    .container-services {
-      position: relative;
-      padding-bottom: 30px;
-    }
-
-    .image {
-      width: 250px;
-    }
-
-    .overlay {
-      position: absolute;
-      opacity: 0;
-      width: 250px;
-      height: 25%;
-      bottom: 30px;
-      transition: .5s ease;
-      background-color: #f2ae2e;
-      text-align: center;
-    }
-
-    .container-services:hover .overlay {
-      opacity: 1;
-    }
-
-    .text {
-      color: black;
-      font-size: 24px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      font-family: 'Muli', sans-serif;
-      font-weight: 700;
-    }
-
-    .orange-background {
-      background-color: #f2ae2e;
-      clear: both;
-      height: 300px;
-    }
-
-    .quiz-container {
-      text-align: center;
-      padding-top: 60px;
-      padding-right: 20px;
-      padding-left: 20px;
-    }
-
-    .quiz-button-wrapper {
-      display: inline-block;
-      margin: .75em;
-      text-align: center;
-      color: white;
-      font-family: 'Muli', sans-serif;
-      position: relative;
-      top: 20px;
-      left: 0;
-    }
-
-    .quiz-button {
-      border: none;
-      border-radius: 3em;
-      display: inline-block;
-      font-size: .9em;
-      padding: .75em 1em;
-      width: auto;
-      }
-
-    .cta-quiz-button {
-      background-color: black;
-      color: #ffffff;
-      font-family:'Muli', sans-serif;
-      text-decoration: none;
-    }
-
-    .cta-quiz-button:hover {
-      background-color: #777;
-      transition-duration: .2s;
-    }
-  }
-
-  .about-container {
-    width: 100%;
-    margin: auto 0;
-  }
-
-  #team1, #team2, #team3, #team4, #team5, #team6, #team7, #team8 {
-    width: 250px;
-    margin: auto;
-  }
-
-  .team {
-    width: 250px;
-  }
-
-  #our-team {
-    padding-top: 100px;
-    padding-bottom: 50px;
-  }
-
-  #team8 {
-    padding-bottom: 150px;
-  }
+}
 
 /*********END MAX WIDTH 400PX MEDIA QUERY**********/
 
@@ -953,8 +698,9 @@ form textarea {
 
 @media (min-width: 600px) {
 
-  nav.desktop-menu {
-    display: none;
+
+  .logo img {
+    width: 140px;
   }
 
   h1 {
@@ -985,12 +731,6 @@ form textarea {
   }
 
 /****HERO IMAGE SECTION****/
-
-  .logo {
-    width: 175px;
-    margin: 10px;
-    transition: .3s;
-  }
 
   header {
     height: 75px;
@@ -1034,11 +774,6 @@ form textarea {
 
 /****OUR STORY SECTION****/
 
-  .container {
-    margin: auto 0;
-    text-align: center;
-    padding: 20px;
-  }
 
   .story {
     padding-top: 50px;
@@ -1046,105 +781,6 @@ form textarea {
 
   .storytext {
     padding-bottom: 50px;
-  }
-
-/****PRODUCTS SECTION****/
-
-  .products-container {
-    height: 1800px;
-    max-width: 100%;
-    clear: both;
-  }
-
-  .main-container {
-    max-width: 500px;
-    margin: auto;
-  }
-
-  .products-text {
-    padding-top: 50px;
-    padding-bottom: 10px;
-  }
-
-  .container-services {
-    position: relative;
-    padding-bottom: 30px;
-  }
-
-  .image {
-    max-width: 500px;
-  }
-
-  .overlay {
-    position: absolute;
-    opacity: 0;
-    width: 500px;
-    height: 25%;
-    bottom: 30px;
-    transition: .5s ease;
-    background-color: #f2ae2e;
-    text-align: center;
-  }
-
-  .container-services:hover .overlay {
-    opacity: 1;
-  }
-
-  .text {
-    color: black;
-    font-size: 24px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    font-family: 'Muli', sans-serif;
-    font-weight: 700;
-  }
-
-  .orange-background {
-    background-color: #f2ae2e;
-    clear: both;
-    height: 300px;
-  }
-
-  .quiz-container {
-    text-align: center;
-    padding-top: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .quiz-button-wrapper {
-    display: inline-block;
-    margin: .75em;
-    text-align: center;
-    color: white;
-    font-family: 'Muli', sans-serif;
-    position: relative;
-    top: 20px;
-    left: 0;
-  }
-
-  .quiz-button {
-    border: none;
-    border-radius: 3em;
-    display: inline-block;
-    font-size: 1em;
-    padding: .75em 1em;
-    width: auto;
-    }
-
-  .cta-quiz-button {
-    background-color: black;
-    color: #ffffff;
-    font-family:'Muli', sans-serif;
-    text-decoration: none;
-  }
-
-  .cta-quiz-button:hover {
-    background-color: #777;
-    transition-duration: .2s;
   }
 }
 
@@ -1154,39 +790,54 @@ form textarea {
 
 
 
+/*********START MIN 700PX MEDIA QUERY**********/
 
 
-/*********START MIN WIDTH 720PX MEDIA QUERY**********/
+/* Tablet menu */
+@media all and (min-width: 700px) {
+    .menu {
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+    }
+    .item.button {
+        width: auto;
+        order: 1;
+        display: block;
+    }
+    .toggle {
+        flex: 1;
+        text-align: right;
+        order: 2;
+    }
+    /* Button up from tablet screen */
+    .menu li.button a {
+        padding: 10px 15px;
+        margin: 5px 0;
+    }
+    .button a {
+        background: #f2ae2e;
+        border-radius: 10px;
+    }
+    .button.secondary {
 
-@media (min-width: 720px) {
+    }
 
-  #about-container {
-    width: 650px;
-    margin: 0 auto;
-  }
-
-  #team1, #team3, #team5, #team7 {
-    float: left;
-    padding-left: 55px;
-    padding-bottom: 20px;
-  }
-
-  #team2, #team4, #team6, #team8 {
-    float:right;
-    padding-right: 55px;
-    padding-bottom: 20px;
-  }
-
-  #team7, #team8 {
-    padding-bottom: 200px;
-  }
-
-  footer {
-    clear: both;
-  }
+    .button.secondary a {
+        background: grey;
+    }
+    .button a:hover {
+        text-decoration: none;
+    }
+    .button:not(.secondary) a:hover {
+        background: grey;
+				transition: .3s;
+    }
 }
 
-/*********END MIN WIDTH 720PX MEDIA QUERY**********/
+
+/*********END MIN 700PX MEDIA QUERY**********/
 
 
 
