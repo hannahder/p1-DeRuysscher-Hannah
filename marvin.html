@@ -34,30 +34,31 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="menu">
-            <li class="logo"><img src="images/logo.png" /></li>
-            <li class="item"><a href="index.html">Home</a></li>
-            <li class="item has-submenu">
-                <a tabindex="0">About</a>
-                <ul class="submenu">
-                    <li class="subitem"><a href="about.html">Our Team</a></li>
-                    <li class="subitem"><a href="#">Our Process</a></li>
-                </ul>
-            </li>
-            <li class="item has-submenu">
-                <a tabindex="0">Products</a>
-                <ul class="submenu">
-                    <li class="subitem"><a href="marvin.html">Marvin</a></li>
-                    <li class="subitem"><a href="#">Fleetwood</a></li>
-                    <li class="subitem"><a href="#">Kolbe</a></li>
-                    <li class="subitem"><a href="#">Brombal</a></li>
-                </ul>
-            </li>
-            <li class="item button"><a href="#">Take Quiz</a></li>
-            <li class="item button secondary"><a href="contact.html">Contact Us</a></li>
-            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-        </ul>
+
+      <button class="hamburger">&#9776;</button>
+  	 	<button class="cross">&#735;</button>
+
+  		 		<nav class="menu">
+  					<ul>
+  						<li><a href="about.html">Our Team</a></li>
+  						<li><a href="#">Our Process</a></li>
+  						<li><a href="marvin.html">Marvin</a></li>
+              <li><a href="#">Kolbe</a></li>
+              <li><a href="#">Brombal</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+  					</ul>
+  				</nav>
+
+  				<nav class="desktop-menu">
+  					<ul>
+  						<li><a href="about.html">Our Team</a></li>
+  						<li><a href="#">Our Process</a></li>
+  						<li><a href="marvin.html">Marvin</a></li>
+              <li><a href="#">Kolbe</a></li>
+              <li><a href="#">Brombal</a></li>
+              <li id="quiz"><a href="#">Start Quiz</a></li>
+              <li id="contact"><a href="contact.html">Contact Us</a></li>
+  					</ul>
       </nav>
     </header>
 
