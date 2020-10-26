@@ -17,10 +17,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="img/ico" />
 
     <!-- Main CSS Stylesheet -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-
-    <!--Lightbox CSS Stylesheet -->
-    <link rel="stylesheet" href="css/lightbox.css" type="text/css"/>
+    <link rel="stylesheet" href="css/newstyles.css" type="text/css" />
 
     <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -34,91 +31,114 @@
   </head>
   <body>
     <header>
-      <div class="logo-container">
-        <a href="index.html">
-          <img class="logo" src="images/logo.png" alt="Logo" width="200" />
-        </a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </nav>
-      <div class="button-wrapper2">
-        <a class="button2 cta-button2" href="#">Contact Us</a>
-      </div>
+
+      <button class="hamburger">&#9776;</button>
+  	 	<button class="cross">&#735;</button>
+
+  		 		<nav class="menu">
+  					<ul>
+  						<li><a href="#">Our Team</a></li>
+  						<li><a href="#">Our Process</a></li>
+  						<li><a href="#">Marvin</a></li>
+              <li><a href="#">Kolbe</a></li>
+              <li><a href="#">Brombal</a></li>
+              <li><a href="#">Contact Us</a></li>
+  					</ul>
+  				</nav>
+
+  				<nav class="desktop-menu">
+  					<ul>
+  						<li><a href="#">Our Team</a></li>
+  						<li><a href="#">Our Process</a></li>
+  						<li><a href="#">Marvin</a></li>
+              <li><a href="#">Kolbe</a></li>
+              <li><a href="#">Brombal</a></li>
+              <li id="quiz"><a href="#">Start Quiz</a></li>
+              <li id="contact"><a href="#">Contact Us</a></li>
+  					</ul>
+  				</nav>
+
+          <div class="logo-container">
+            <a href="index.html">
+              <img class="logo" src="images/logo.png" alt="Logo"/>
+            </a>
+          </div>
+
     </header>
     <main>
       <div class="hero-image">
-      <img class="hero" src="images/about.jpg" alt="Hero" width="2000"/>
-        <div class="content"><h1>About Us</h1></div>
+      <img class="hero" src="images/about.jpg" alt="Scott discussing windows with installer"/>
+        <div class="content"><h1>Our Team</h1></div>
       </div>
 
       <!--Team Headshots -->
-      <div class="container">
-        <h1>Our Team</h1>
-      <section class="team1">
-        <a href="images/richard.png" data-lightbox="image-1" data-title="Richard Charlton | President of Operations"><img src="images/richard.png" alt="headshot" width="400" /></a>
-        <h3>Richard Charlton</h3>
-        <p>President of Operations</p>
-      </section>
-      <section class="team2">
-        <a href="images/scott.png" data-lightbox="image-1" data-title="Scott Bussard | President of Sales"><img src="images/scott.png" alt="headshot" width="400" /></a>
-        <h3>Scott Bussard</h3>
-        <p>President of Sales</p>
-      </section>
-      <section class="team3">
-        <a href="images/chris.png" data-lightbox="image-1" data-title="Chris Jones | Director of Operations"><img src="images/chris.png" alt="headshot" width="300" /></a>
-        <h3>Chris Jones</h3>
-        <p>Director of Operations</p>
-      </section>
-      <section class="team4">
-        <a href="images/mike.png" data-lightbox="image-1" data-title="Mike Brynes | Senior Project Manager"><img src="images/mike.png" alt="headshot" width="300" /></a>
-        <h3>Mike Brynes</h3>
-        <p>Senior Project Manager</p>
-      </section>
-        <section class="team5">
-          <a href="images/debbie.png" data-lightbox="image-1" data-title="Debbie Charlton | Office Manager"><img src="images/debbie.png" alt="headshot" width="300" /></a>
+      <div id="about-container">
+        <h1 id="our-team">Meet the Team</h1>
+        <div id="team1">
+          <img class="team" src="images/richard.png" alt="headshot" /></a>
+          <h3>Richard Charlton</h3>
+          <p>President of Operations</p>
+        </div>
+        <div id="team2">
+          <img class="team" src="images/scott.png" alt="headshot" /></a>
+          <h3>Scott Bussard</h3>
+          <p>President of Sales</p>
+        </div>
+        <div id="team3">
+          <img class="team" src="images/chris.png" alt="headshot" /></a>
+          <h3>Chris Jones</h3>
+          <p>Director of Operations</p>
+        </div>
+        <div id="team4">
+          <img class="team" src="images/mike.png" alt="headshot" /></a>
+          <h3>Mike Brynes</h3>
+          <p>Senior Project Manager</p>
+        </div>
+          <div id="team5">
+          <img class="team" src="images/debbie.png" alt="headshot" /></a>
           <h3>Debbie Charlton</h3>
           <p>Office Manager</p>
-      </section>
-      <section class="team3">
-        <a href="images/joe.png" data-lightbox="image-1" data-title="Joe Charlton | Senior Estimator"><img src="images/joe.png" alt="headshot" width="300" /></a>
-        <h3>Joe Charlton</h3>
-        <p>Senior Estimator</p>
-      </section>
-      <section class="team4">
-        <a href="images/jr.png" data-lightbox="image-1" data-title="JR Bussard | Senior CAD Designer"><img src="images/jr.png" alt="headshot" width="300" /></a>
-        <h3>JR Bussard</h3>
-        <p>Senior CAD Designer</p>
-      </section>
-        <section class="team5">
-          <a href="images/hannah.png" data-lightbox="image-1" data-title="Hannah De Ruysscher | Marketing Manager"><img src="images/hannah.png" alt="headshot" width="300" /></a>
-          <h3>Hannah De Ruysscher</h3>
-          <p>Marketing Manager</p>
-      </section>
+        </div>
+        <div id="team6">
+          <img class="team" src="images/joe.png" alt="headshot" /></a>
+          <h3>Joe Charlton</h3>
+          <p>Senior Estimator</p>
+        </div>
+        <div id="team7">
+          <img class="team" src="images/jr.png" alt="headshot" /></a>
+          <h3>JR Bussard</h3>
+          <p>Senior CAD Designer</p>
+        </div>
+          <div id="team8">
+            <img class="team" src="images/hannah.png" alt="headshot" /></a>
+            <h3>Hannah De Ruysscher</h3>
+            <p>Marketing Manager</p>
+        </div>
       </div>
     </main>
     <footer>
+
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">TEAM</a></li>
+          <li><a href="#">PROCESS</a></li>
+          <li><a href="#">MARVIN</a></li>
+          <li><a href="#">KOLBE</a></li>
+          <li><a href="#">BROMBAL</a></li>
+          <li><a href="#">CONTACT US</a></li>
         </ul>
       </nav>
       <p id="footer-text">418 25th Street <br/> West Palm Beach, Florida 33407 <br /> 561.717.0474 <br /> info@cstonefl.com</p>
       <section class="social">
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-twitter"></a>
-      <a href="#" class="fa fa-instagram"></a>
-      <a href="#" class="fa fa-linkedin"></a>
-    </section>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </section>
+      <p>&#169; 2020 Cornerstone Companies of Florida, LLC</p>
+
     </footer>
-    <script src="js/lightbox.js"></script>
+    <script src="js/hamburger.js"></script>
   </body>
 </html>
