@@ -1,8 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
   <head>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175397266-1"></script>
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -10,104 +14,129 @@
 
       gtag('config', 'UA-175397266-1');
   </script>
+
     <meta charset="utf-8" />
+
     <title>Cornerstone Companies</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" type="img/ico" />
 
     <!-- Main CSS Stylesheet -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-
+    <link rel="stylesheet" href="css/newstyles.css" type="text/css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Social Media Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   </head>
+
   <body>
+
     <header>
-      <div class="logo-container">
-        <a href="index.html">
-          <img class="logo" src="images/logo.png" alt="Logo" width="200" />
-        </a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </nav>
-      <div class="button-wrapper2">
-        <a class="button2 cta-button2" href="#">Contact Us</a>
-      </div>
+
+      <button class="hamburger">&#9776;</button>
+  	 	<button class="cross">&#735;</button>
+
+  		 		<nav class="menu">
+  					<ul>
+  						<li><a href="about.html">Our Team</a></li>
+  						<li><a href="#">Our Process</a></li>
+  						<li><a href="#">Marvin</a></li>
+              <li><a href="#">Kolbe</a></li>
+              <li><a href="#">Brombal</a></li>
+              <li><a href="#">Contact Us</a></li>
+  					</ul>
+  				</nav>
+
+  				<nav class="desktop-menu">
+  					<ul>
+  						<li><a href="about.html">Our Team</a></li>
+  						<li><a href="#">Our Process</a></li>
+  						<li><a href="#">Marvin</a></li>
+              <li><a href="#">Kolbe</a></li>
+              <li><a href="#">Brombal</a></li>
+              <li id="quiz"><a href="#">Start Quiz</a></li>
+              <li id="contact"><a href="#">Contact Us</a></li>
+  					</ul>
+  				</nav>
+
+          <div class="logo-container">
+            <a href="index.html">
+              <img class="logo" src="images/logo.png" alt="Logo"/>
+            </a>
+          </div>
+
     </header>
 
     <main>
       <section class="hero-image">
-        <img class="hero" src="images/home.jpg" alt="Hero" width="2000"/>
+        <img class="hero" src="images/home.jpg" alt="Hero"/>
           <div class="content"><h1>Cornerstone Companies</h1>
-          <h2>We help people build their dream homes</h2>
           </div>
           <div class="content button-wrapper1">
             <a class="button1 cta-button1" href="#">Visit Our Showroom</a>
           </div>
       </section>
 
-      <!-- What Makes Us Different Section -->
-      <div class="container-different">
-        <h1 class="different">What Makes Us Different</h1>
-
-          <section class="owner">
-            <img class="owner-icon" src="images/owner.png" alt="Owner Participation" width="100" />
-            <h3>Owner Participation</h3>
-            <p>We work with homeowners, builders, architects and contractors at every step of the process.</p>
-          </section>
-
-          <section class="service">
-            <img class="service-icon" src="images/service.png" alt="Bespoke Service" width="100" />
-            <h3>Bespoke Service</h3>
-            <p>We consider all factors when providing a tailored product and installation service package</p>
-          </section>
-
-          <section class="selective">
-            <img class="selective-icon" src="images/selective.png" alt="Manufracturer Selective" width="100" />
-            <h3>Manufracturer Selective</h3>
-            <p>We provide the best impact rated windows and doors from the highest rated manufracturers.</p>
-          </section>
-
-      </div>
-
-      <hr />
-
+      <!-- Our Story Section -->
       <div class="container">
         <h1 class="story">Our Story</h1>
-        <p class="storytext">We are a family owned business with over 35 years of experience in the South Florida window and door industry. We focus on delivering the best and most detailed customer service and impact window and door installation. Competing on quality and service, we partner with industry-leading manufracturers, Marvin, Kolbe, and Brombal, offering a wide varity of aluminum, wood and steel windows and doors.</p>
+        <hr />
+        <p class="storytext">We are a family owned business with over 35 years of combined experience in the South Florida luxury impact window and door industry. We focus on delivering the best and most detailed customer service and installation. We are partnered with these industry-leading manufacturers, Marvin, Fleetwood, Kolbe and Brombal to offer a wide variety of aluminum, wood and steel products.</p>
       </div>
 
-      <!-- Products Section -->
+      <!-- How We Work Section -->
       <div class="grey-background">
+        <div class="container-different">
+          <h1 class="different">How We Work</h1>
+            <hr />
+              <div id="owner">
+                <img class="owner-icon" src="images/owner.png" alt="Owner Participation"/>
+                <h3>Owner Participation</h3>
+                <p>We work with homeowners, builders, architects and contractors at every step of the process.</p>
+              </div>
+
+              <div id="service">
+                <img class="service-icon" src="images/service.png" alt="Bespoke Service"/>
+                <h3>Bespoke Service</h3>
+                <p>We consider all factors when providing a tailored product and installation service package</p>
+              </div>
+
+              <div id="selective">
+                <img class="selective-icon" src="images/selective.png" alt="Manufacturer Selective"/>
+                <h3>Manufacturer Selective</h3>
+                <p>We provide the best impact rated windows and doors from the highest rated manufacturers.</p>
+            </div>
+      </div>
+    </div>
+
+      <!-- Products Section -->
+      <div class="products-container">
         <h1 class="products-text">Products</h1>
+        <hr />
         <div class="main-container">
             <div class="container-services">
-              <img src="images/marvin.jpg" alt="Marvin" class="image" width="500">
+              <img src="images/marvin.jpg" alt="Marvin" class="image">
               <div class="overlay">
               <div class="text">Marvin</div>
               </div>
             </div>
 
           <div class="container-services">
-            <img src="images/kolbe.jpg" alt="Kolbe" class="image" width="500">
+            <img src="images/kolbe.jpg" alt="Kolbe" class="image">
               <div class="overlay">
               <div class="text">Kolbe</div>
               </div>
           </div>
 
           <div class="container-services">
-            <img src="images/brombal.jpg" alt="Brombal" class="image" width="500">
+            <img src="images/brombal.jpg" alt="Brombal" class="image">
               <div class="overlay">
               <div class="text">Brombal</div>
               </div>
@@ -115,42 +144,29 @@
         </div>
       </div>
 
-      <!-- Recent News Section -->
-      <div class="white-background">
-        <h1 class="products-text">Recent News</h1>
-        <div class="main-container">
-          <div class="container-services">
-            <img src="images/blog1.jpg" alt="Blog" class="image" width="500">
-              <div class="overlay">
-              <div class="text-blog">Blog 1</div>
-              </div>
-          </div>
-
-          <div class="container-services">
-            <img src="images/blog2.jpg" alt="Blog" class="image" width="500">
-              <div class="overlay">
-              <div class="text-blog">Blog 2</div>
-              </div>
-          </div>
-
-
-          <div class="container-services">
-            <img src="images/blog3.jpg" alt="Blog" class="image" width="500">
-              <div class="overlay">
-              <div class="text-blog">Blog 3</div>
-              </div>
+      <!-- Quiz Section -->
+      <div class="orange-background">
+        <div class="quiz-container">
+          <h1>Don't know which windows and doors are best for you?</h1>
+          <h3>Take our quiz to find out.</h3>
+          <div class="content quiz-button-wrapper">
+            <a class="quiz-button cta-quiz-button" href="#">Start Quiz</a>
           </div>
         </div>
       </div>
   </main>
 
     <footer>
+
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">TEAM</a></li>
+          <li><a href="#">PROCESS</a></li>
+          <li><a href="#">MARVIN</a></li>
+          <li><a href="#">KOLBE</a></li>
+          <li><a href="#">BROMBAL</a></li>
+          <li><a href="#">CONTACT US</a></li>
         </ul>
       </nav>
       <p id="footer-text">418 25th Street <br/> West Palm Beach, Florida 33407 <br /> 561.717.0474 <br /> info@cstonefl.com</p>
@@ -161,6 +177,8 @@
         <a href="#" class="fa fa-linkedin"></a>
       </section>
       <p>&#169; 2020 Cornerstone Companies of Florida, LLC</p>
+
     </footer>
+  <script src="js/hamburger.js"></script>
   </body>
 </html>
