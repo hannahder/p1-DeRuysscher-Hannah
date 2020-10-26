@@ -1,0 +1,52 @@
+.accordionjs {
+  /* position: relative; */
+  list-style: none;
+  margin-bottom: 20px;
+  background: #d1d1d1;
+}
+.accordionjs .acc_section {
+  border: 1px solid #c6c6c6;
+  /* position: relative; */
+  z-index: 10;
+  margin-top: -1px;
+  overflow: hidden;
+
+}
+.accordionjs .acc_section .acc_head {
+  /* position: relative; */
+  background: #d3d3d3;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+}
+.accordionjs .acc_section .acc_head h3 {
+  line-height: 1;
+  margin: 5px 0;
+}
+.accordionjs .acc_section .acc_content {
+  padding: 10px;
+}
+.accordionjs .acc_section:first-of-type,
+.accordionjs .acc_section:first-of-type .acc_head {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.accordionjs .acc_section:last-of-type,
+.accordionjs .acc_section:last-of-type .acc_content {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.accordionjs .acc_section.acc_active > .acc_content {
+  display: block;
+}
+.accordionjs .acc_section.acc_active > .acc_head {
+  background: #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.accordionjs ul li {
+  text-align: left;
+  line-height: 30px;
+  list-style-type: none;
+}
