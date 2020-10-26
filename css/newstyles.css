@@ -918,6 +918,41 @@ form input {
 
 
 
+
+/*********START MIN WIDTH 900PX MEDIA QUERY**********/
+
+@media (min-width: 900px) {
+
+  .footer-right, .footer-center {
+    float: left;
+    margin: auto;
+  }
+
+  .footer-right {
+    max-width: 200px;
+  }
+
+  .bottom-footer {
+    padding-top: 30px;
+    width: 700px;
+    margin: auto;
+  }
+
+.footer-distributed {
+  height: 500px;
+}
+}
+
+/*********END MIN WIDTH 900PX MEDIA QUERY**********/
+
+
+
+
+
+
+
+
+
 /*********START MIN WIDTH 1000PX MEDIA QUERY**********/
 
 @media (min-width: 1000px) {
@@ -1006,21 +1041,74 @@ form input {
     padding: 0 10px 100px 10px;
     transition: .3s;
   }
-
-
-/****PRODUCTS SECTION****/
-
-  .products-container {
-    height: 1900px;
-    max-width: 100%;
-    clear: both;
-  }
-
-  .overlay {
-    max-width: 500px;
-  }
+}
 
 /*********END MIN WIDTH 1000PX MEDIA QUERY**********/
+
+
+
+
+
+
+
+
+
+
+
+
+/*********START MIN WIDTH 1020PX MEDIA QUERY**********/
+
+@media (min-width: 1070px) {
+
+
+.marvin-intro, .marvin-outro {
+  width: 75%;
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.marvin-grey-background {
+  width: 100%;
+  background-color: #d1d1d1;
+  height: 500px;
+}
+
+.marvin-image-with-accordion {
+  max-width: 100%;
+  margin: auto;
+  width: 1050px;
+}
+
+.marvin-img {
+  max-width: 500px;
+  width: 85%;
+  float: left;
+  margin: auto;
+}
+
+.accordionjs {
+  float: left;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+
+/*********END MIN WIDTH 1020PX MEDIA QUERY**********/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
