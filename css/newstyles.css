@@ -1236,43 +1236,42 @@ form input {
   padding: .75em 1em;
   width: auto;
 }
-
-/****PRODUCTS SECTION****/
-
-
-  .products-container {
-    height: 1300px;
-    max-width: 100%;
-    clear: both;
-  }
-
-  .products-text {
-    padding-top: 80px;
-    padding-bottom: 10px;
-  }
-
-  .main-container {
-    margin: auto;
-    max-width: 1040px;
-  }
-
-  .container-services {
-    float: left;
-    padding: 0 10px 20px 10px;
-  }
-
-  .image {
-    max-width: 500px;
-  }
-
-  .overlay {
-    opacity: 0;
-    height: 25%;
-    width: 500px;
-    bottom: 20px;
-  }
+}
 
 /*********END MIN WIDTH 1400PX MEDIA QUERY**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********START MIN WIDTH 1650PX MEDIA QUERY**********/
+
+@media (min-width: 1650px) {
+	.products-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+}
+
+/*********END MIN WIDTH 1650PX MEDIA QUERY**********/
+
+
+
+
+
+
+
 
 
 
