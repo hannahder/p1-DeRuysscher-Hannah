@@ -798,123 +798,19 @@ form input {
     padding-bottom: 50px;
   }
 
-/****OUR STORY SECTION****/
+  /****OUR STORY SECTION****/
 
-  .container {
-    margin: auto 0;
-    text-align: center;
-    padding: 20px;
-  }
 
-  .story {
-    padding-top: 50px;
-  }
-
-  .storytext {
-    padding-bottom: 50px;
-  }
-
-/****PRODUCTS SECTION****/
-
-  .products-container {
-    height: 1800px;
-    max-width: 100%;
-    clear: both;
-  }
-
-  .main-container {
-    max-width: 500px;
-    margin: auto;
-  }
-
-  .products-text {
-    padding-top: 50px;
-    padding-bottom: 10px;
-  }
-
-  .container-services {
-    position: relative;
-    padding-bottom: 30px;
-  }
-
-  .image {
-    max-width: 500px;
-  }
-
-  .overlay {
-    position: absolute;
-    opacity: 0;
-    width: 500px;
-    height: 25%;
-    bottom: 30px;
-    transition: .5s ease;
-    background-color: #f2ae2e;
-    text-align: center;
-  }
-
-  .container-services:hover .overlay {
-    opacity: 1;
-  }
-
-  .text {
-    color: black;
-    font-size: 24px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    font-family: 'Muli', sans-serif;
-    font-weight: 700;
-  }
-
-  .orange-background {
-    background-color: #f2ae2e;
-    clear: both;
-    height: 300px;
-  }
-
-  .quiz-container {
-    text-align: center;
-    padding-top: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .quiz-button-wrapper {
-    display: inline-block;
-    margin: .75em;
-    text-align: center;
-    color: white;
-    font-family: 'Muli', sans-serif;
-    position: relative;
-    top: 20px;
-    left: 0;
-  }
-
-  .quiz-button {
-    border: none;
-    border-radius: 3em;
-    display: inline-block;
-    font-size: 1em;
-    padding: .75em 1em;
-    width: auto;
+    .story {
+      padding-top: 50px;
     }
 
-  .cta-quiz-button {
-    background-color: black;
-    color: #ffffff;
-    font-family:'Muli', sans-serif;
-    text-decoration: none;
+    .storytext {
+      padding-bottom: 50px;
+    }
   }
 
-  .cta-quiz-button:hover {
-    background-color: #777;
-    transition-duration: .2s;
-  }
-}
-
-/*********END MIN WIDTH 600PX MEDIA QUERY**********/
+  /*********END MIN WIDTH 600PX MEDIA QUERY**********/
 
 
 
@@ -1012,38 +908,6 @@ form input {
   #selective {
     padding-bottom: 50px;
   }
-
-/****PRODUCTS SECTION****/
-
-  .products-container {
-    height: 1900px;
-    max-width: 100%;
-    clear: both;
-  }
-
-  .main-container {
-    max-width: 500px;
-    margin: auto;
-  }
-
-  .products-text {
-    padding-top: 80px;
-    padding-bottom: 10px;
-  }
-
-  .image {
-    max-width: 500px;
-  }
-
-  .overlay {
-    max-width: 500px;
-  }
-}
-
-.orange-background {
-  background-color: #f2ae2e;
-  clear: both;
-  height: 300px;
 }
 
 /*********END MIN WIDTH 800PX MEDIA QUERY**********/
