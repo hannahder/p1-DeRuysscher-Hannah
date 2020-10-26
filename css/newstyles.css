@@ -1107,57 +1107,6 @@ form input {
 
 
 
-
-
-
-
-
-
-
-
-/*********START MIN WIDTH 1100PX MEDIA QUERY**********/
-
-@media (min-width: 1100px) {
-
-  #about-container {
-    width: 840px;
-    margin: 0 auto;
-  }
-
-  #team1 {
-    float: left;
-    padding-left: 150px;
-  }
-
-  #team2 {
-    float: left;
-    padding-left: 40px;
-  }
-
-  #team3, #team4, #team5 {
-    float: left;
-    padding: 15px;
-  }
-
-  #team6, #team7, #team8 {
-    float: left;
-    padding: 15px;
-    padding-bottom: 200px;
-  }
-
-  footer {
-    clear: both;
-  }
-}
-
-/*********END MIN WIDTH 1100PX MEDIA QUERY**********/
-
-
-
-
-
-
-
 /*********START MIN WIDTH 1400PX MEDIA QUERY**********/
 
 @media (min-width: 1400px) {
