@@ -12,12 +12,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 font-family: 'Muli', sans-serif;
 */
 
-header {
-	height: 100px;
-	background-color: white;
-}
-
-body, h1, h2, h3 {
+body, h1, h2, h3, footer {
 	font-family: 'Muli', sans-serif;
 }
 
@@ -25,49 +20,15 @@ h1 {
 	text-align: center;
 }
 
-.logo-container {
-  max-width: 25%;
-}
-
-.logo {
-  width: 200px;
-  margin: 15px;
-  padding-left: 10px;
-  transition: .3s;
-}
-
 p {
   padding-top: 5px;
 	padding-bottom: 10px;
 }
 
-footer {
-	background-color: #d1d1d1;
-	font-weight: bold;
+.container {
+  margin: auto 0;
   text-align: center;
-	padding: 30px 0;
-}
-
-footer nav ul {
-  list-style-type: none;
-  padding-bottom: 30px;
-}
-
-footer nav li {
-  display: inline;
-  padding: 15px;
-  line-height: 50px;
-  text-align: center;
-  color: black;
-}
-
-footer nav a {
-  text-decoration:none;
-  color: black;
-}
-
-#footer-text {
-  padding-bottom: 30px;
+  padding: 80px 20px;
 }
 
 .container-different {
@@ -101,6 +62,7 @@ footer nav a {
   flex-direction: column;
 }
 
+
 hr {
   display: block;
   height: 1px;
@@ -111,45 +73,233 @@ hr {
   margin: auto;
 }
 
-.social {
-  padding-bottom: 10px;
+
+/* Products Section */
+
+
+.products-container {
+	max-width: 1550px;
+	margin: auto;
+  padding: 50px 0px 150px 0px;
+}
+
+.products-text {
+  padding-top: 150px;
+}
+
+
+section {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+}
+
+section img {
+  width: 100%;
+}
+
+section h1 {
+	opacity: 0;
+	position: absolute;
+	bottom: 4px;
+	width: 100%;
+	margin: auto;
+  color: black;
+}
+
+section:hover h1 {
+	opacity: 1;
+	background-color: #f2ae2e;
+	padding: 40px 0px;
+	transition: .3s;
+}
+
+
+/****QUIZ SECTION****/
+
+  .orange-background {
+    background-color: #f2ae2e;
+    clear: both;
+    height: 300px;
+  }
+
+  .quiz-container {
+    text-align: center;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .quiz-button-wrapper {
+    display: inline-block;
+    margin: .75em;
+    text-align: center;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 0;
+  }
+
+  .quiz-button {
+    border: none;
+    border-radius: 3em;
+    display: inline-block;
+    font-size: .9em;
+    padding: .75em 1em;
+    width: auto;
+    }
+
+  .cta-quiz-button {
+    background-color: black;
+    color: #ffffff;
+    font-family:'Muli', sans-serif;
+    text-decoration: none;
+  }
+
+  .cta-quiz-button:hover {
+    background-color: #777;
+    transition-duration: .2s;
+  }
+
+
+/****FOOTER****/
+
+
+.footer-distributed{
+	background-color: #d1d1d1;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 125px 50px;
+  margin: auto;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
   text-align: center;
 }
 
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 30px;
-  height: 20px;
+
+.footer-left{
+	width: 100%;
+  display: block;
+  margin-bottom: 40px;
   text-align: center;
-  text-decoration: none;
 }
 
-.fa:hover {
-  opacity: 0.7;
+
+.footer-links{
+	color:  black;
+	margin: 0px 0 12px;
+	padding: 0;
 }
 
-/* Facebook */
-.fa-facebook {
-  background: #f2ae2e;
-  color: black;
+.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
 }
 
-/* Twitter */
-.fa-twitter {
-  background: #f2ae2e;
-  color: black;
+.footer-company-name{
+	color:  black;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
 }
 
-.fa-instagram {
-  background: #f2ae2e;
-  color: black;
+ .footer-center{
+	width: 30%;
+  max-width: 400px;
+  margin: auto;
 }
 
-.fa-linkedin {
-  background: #f2ae2e;
-  color: black;
+.footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
 }
+
+.footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-center p{
+	display: inline-block;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-center p a{
+	text-decoration: none;
+}
+
+.footer-right{
+	width: 30%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.footer-company-about{
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-company-about span{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-icons{
+	margin-top: 25px;
+}
+
+.footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #f2ae2e;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+/****END FOOTER****/
+
+
 
 /*********Hamburger Menu Style**********/
 
@@ -191,6 +341,169 @@ hr {
 .menu ul li a:hover {  color: #666; text-decoration:none;}
 .menu a{text-decoration:none; color:#666;}
 .menu a:hover{text-decoration:none; color:#666;}
+
+
+
+
+
+/* Contact Page */
+
+
+
+.contact-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #d1d1d1;
+  /* box-shadow: 0px 0px 300px 30px #141414; */
+  border-radius: 10px;
+  margin: 250px auto;
+  padding: 50px;
+}
+
+form fieldset {
+  display: flex;
+	padding: 10px;
+}
+
+label {
+  margin-right: 20px;
+}
+
+input, select {
+  flex-grow: 1;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="url"],
+form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+form input[type="text"]:hover,
+form input[type="email"]:hover,
+form input[type="tel"]:hover,
+form input[type="url"]:hover,
+form textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+
+form textarea {
+  resize: none;
+  max-width: 100%;
+  height: 200px;
+}
+
+
+#contact-submit {
+  width: 100px;
+  height: 40px;
+  font-family: 'Muli', sans-serif;
+  border-radius: 3px;
+  margin: auto;
+}
+
+#contact-submit:hover {
+  background-color: grey;
+  color: white;
+  transition: .3s;
+}
+
+
+
+
+
+/* About Page */
+
+
+
+#about-container {
+  display: flex;
+  max-width: 950px;
+  width: 100%;
+  margin: auto;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.team-member-top {
+  max-width: 330px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.team-member {
+  max-width: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+
+
+
+/* Marvin Page */
+
+
+.marvin-intro, .marvin-outro {
+  width: 75%;
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.marvin-grey-background {
+  width: 100%;
+  background-color: #d1d1d1;
+  margin: auto;
+}
+
+.marvin-image-with-accordion {
+  margin: auto;
+  width: 100%;
+}
+
+.marvin-img {
+  display: block;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+
+}
+
+.accordionjs {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
