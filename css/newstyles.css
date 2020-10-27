@@ -304,6 +304,11 @@ section:hover h1 {
 
 /*********Hamburger Menu Style**********/
 
+header {
+  background-color: white;
+}
+
+
 .hamburger {
   background:none;
   position:absolute;
